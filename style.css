@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(204, 43%, 93%);
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 0.3125rem;
+  background-color: white;
+  box-shadow: 0 0 20px lightgray;
+  width: 20.625rem;
+  height: 52rem;
+}
+
+.text-container {
+  padding: 30px 20px;
+  line-height: 1.5;
+}
+.main_heading {
+  font-size: 1.3rem;
+  color: hsl(179, 62%, 43%);
+}
+.sub_heading {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  color: hsl(71, 73%, 54%);
+}
+.main_content {
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: hsl(218, 22%, 67%);
+}
+
+.split {
+  padding-top: 1rem;
+  height: 16.52rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark {
+  padding: 30px 20px;
+  background: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.light {
+  padding: 30px 1rem;
+  background: hsl(178, 48%, 52%);
+  color: white;
+  border-bottom-left-radius: 0.3125rem;
+  border-bottom-right-radius: 0.3125rem;
+}
+
+.dark-heading {
+  font-size: 1.1875rem;
+  margin-top: 10px;
+}
+.count {
+  display: flex;
+}
+.price {
+  font-size: 2rem;
+  margin: 1.2rem 0;
+  font-weight: 700;
+}
+.count_head {
+  margin-left: 15px;
+  align-self: center;
+  font-size: 1.4rem;
+  opacity: 50%;
+}
+
+.line {
+  font-size: 1.04rem;
+  font-weight: 400;
+  opacity: 80%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  background: yellowgreen;
+  margin-top: 2rem;
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+}
+.button:hover {
+  box-shadow: 0 0 40px gray;
+}
+
+.light-heading {
+  font-size: 1.5rem;
+  margin-top: 1px;
+  padding-bottom: 15px;
+}
+
+.list {
+  line-height: 1.5;
+  color: hsl(204, 43%, 93%);
+  opacity: 80%;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    width: 40rem;
+    height: 30rem;
+  }
+  .text-container {
+    padding: 40px 50px;
+  }
+  .main_heading {
+    font-size: 1.8rem;
+  }
+  .sub_heading {
+    font-size: 1.28rem;
+  }
+  .main_content {
+    font-size: 1.02rem;
+  }
+
+  .split-container {
+    display: flex;
+    flex-direction: row;
+    height: 16.11rem;
+  }
+  .split {
+    padding-top: 1rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .dark {
+    padding: 10px 50px;
+    border-bottom-left-radius: 0.3125rem;
+  }
+
+  .light {
+    padding: 10px 50px;
+    border-bottom-left-radius: 0;
+  }
+}
